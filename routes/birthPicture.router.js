@@ -2,7 +2,7 @@ const express = require("express")
 const router = express.Router();
 const { birthPictureController } = require("../controllers/birthPicture.controller")
 
-router.get("/pictureOf", ((req, res, next) => {
+router.get("/img", ((req, res, next) => {
 
     try {
         console.log("inside DOB router");
